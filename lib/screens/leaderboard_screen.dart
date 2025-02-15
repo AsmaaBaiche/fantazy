@@ -42,14 +42,14 @@ class LeaderboardScreen extends StatelessWidget {
         },
       ),
        bottomNavigationBar: BottomNavBar(
-        currentIndex: 0,
+        currentIndex: 2,
         onTap: (index) {
           switch (index) {
+            case 0:
+              Navigator.pushReplacementNamed(context, '/home');
+              break;
             case 1:
               Navigator.pushReplacementNamed(context, '/team');
-              break;
-            case 2:
-              Navigator.pushReplacementNamed(context, '/leaderboard');
               break;
             case 3:
               Navigator.pushReplacementNamed(context, '/profile');

@@ -149,7 +149,7 @@ class ProfileScreen extends StatelessWidget {
           if (index != 3) {
             switch (index) {
               case 0:
-                Navigator.pushReplacementNamed(context, '/');
+                Navigator.pushReplacementNamed(context, '/home');
                 break;
               case 1:
                 Navigator.pushReplacementNamed(context, '/team');

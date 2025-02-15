@@ -6,15 +6,8 @@ import 'screens/leaderboard_screen.dart';
 import 'screens/RegisterScreen.dart';
 import 'screens/ProfileScreen.dart';
 import 'screens/HomeScreen.dart';
-import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  
-  final FlutterLocalNotificationsPlugin notifications = FlutterLocalNotificationsPlugin();
-  const androidSettings = AndroidInitializationSettings('@mipmap/ic_launcher');
-  await notifications.initialize(InitializationSettings(android: androidSettings));
-
   runApp(MyApp());
 }
 
