@@ -51,7 +51,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
 
-              // Carte principale (Créer votre équipe)
+             
               Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: InkWell(
@@ -106,7 +106,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
 
-              // Section Matches
+            
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16.0),
                 child: Column(
@@ -132,7 +132,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
 
-              // Section Actualités
+             
               const Padding(
                 padding: EdgeInsets.all(16.0),
                 child: Text(
